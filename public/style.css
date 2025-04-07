@@ -1,0 +1,140 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Main Heading */
+h1 {
+  color: maroon;
+  margin-bottom: 20px;
+}
+
+/* Post Container */
+.post {
+  background-color: blanchedalmond;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px auto;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* Username */
+.user {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* Button Group (Aligns buttons in a row) */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* General Button Styling */
+.button-group a,
+.button-group form {
+  display: inline-block;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: maroon;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+a:hover {
+  background-color: darkred;
+}
+
+/* Delete Button */
+.delete-button {
+  background-color: maroon;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
+
+/* Form Styling */
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Submit Button */
+button {
+  display: block;
+  width: 100%;
+  background-color: maroon;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+/* Create New Post Button */
+.create-post {
+  margin-top: 20px;
+  display: inline-block;
+}
